@@ -1,0 +1,256 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+
+body {
+    font-family:"crayon," Helvetica,Arial,sans-serif;
+    color:#bbb;
+    background: linear-gradient(rgba(0,100,0,0.45), rgba(0,100,0,0.45)), url("../img/blackboard_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom:50px;
+}
+
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    horizontal-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-family: blackboard;
+    color: white;
+}
+
+.pad-section {
+    padding: 90px 0;
+}
+/* Fonts */
+@font-face {
+   font-family: blackboard;
+   src: url(SketchBook.ttf);
+}
+@font-face {
+   font-family: crayon;
+   src: url(crayon.ttf);
+}
+ /* navbar */
+
+body .navbar-custom {
+    position: fixed;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: 'crayon',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    z-index: 1030;
+    background: rgba(255,255,255,.7);
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #000;
+    font-family: 'crayon', sans-serif;
+
+}
+
+.navbar-custom .nav li a {
+
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    font-size: 20px;
+    background-color: rgba(255,255,255,.3);
+}
+
+@media(min-width:767px) {
+    .navbar {
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+
+
+/* Header */
+
+.header {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 40px auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+        height: 690px;
+}
+
+.header h1 {
+
+    font-size: 90px;
+    color: white;
+}
+
+/* Header animation (animation code from https://github.com/daneden/animate.css) */
+
+h1.artistic {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+}
+
+/* About */
+
+.about-section { 
+    padding: 50px 0;
+    font-family: 'blackboard', sans-serif;
+    z-index: 1040;
+}
+
+div.textbox {
+  padding: 20px;
+  background: rgba(0 0 128 0.6);
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+        height: 590px;
+        text-align: center;
+}
+
+div.textbox h2 {
+    padding-bottom: 20px;
+    font-size: 45px;
+    color: white;
+
+}
+div.textbox p {
+    font-family: 'crayon', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+/* Artists */
+
+.artist-section {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: blackboard;
+    padding-top: 80px;
+}
+
+.artist-section h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.artist {
+    font-family: 'crayon', sans-serif;
+    padding: 40px 15px 40px 15px;
+}
+
+div.artist {
+    vertical-align: top;
+    text-align: center;
+}
+
+.caption {
+    display: block;
+}
+
+
+
+
+/* Footer */
+footer {
+    font-color: #bbb;
+}
+footer.setAuthor p {
+    font-size: 10px;
+}
