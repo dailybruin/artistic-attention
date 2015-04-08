@@ -244,6 +244,9 @@ div.artist {
     display: block;
 }
 
+#fit {
+    display: inline-block;
+}
 
 
 
