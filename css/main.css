@@ -52,7 +52,6 @@ body .navbar-custom {
     position: fixed;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
     font-family: 'crayon',"Helvetica Neue",Helvetica,Arial,sans-serif;
     z-index: 1030;
     background: rgba(255,255,255,.7);
@@ -248,7 +247,7 @@ div.textbox p {
 
 .artist {
     font-family: 'crayon', sans-serif;
-    padding: 20px 5px 20px 5px;
+    padding: 40px 10px 40px 10px;
 }
 
 div.artist {
