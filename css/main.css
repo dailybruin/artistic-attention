@@ -10,14 +10,24 @@
 body {
     font-family:"crayon," Helvetica,Arial,sans-serif;
     color:#bbb;
-    background:url("../img/blackboard_background.jpg") no-repeat center center fixed;
+    background:url("../img/blackboard_background2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-bottom:50px;
 }
-
+@media only screen and (max-width: 959px){
+    -webkit-background-attachment: scroll;
+    -moz-background-attachment: scroll;
+    -o-background-attachment: scroll;
+    -ms-backgroudn-attachment: scroll;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
 
 .text-vertical-center {
     display: table-cell;
@@ -97,7 +107,7 @@ body .navbar-custom {
     background-color: rgba(255,255,255,.3);
 }
 
-@media(min-width:767px) {
+@media(min-width:967px) {
     .navbar {
         letter-spacing: 1px;
         background: 0 0;
@@ -113,8 +123,8 @@ body .navbar-custom {
 }
 
 @media(min-width:767px) {
-    .about-section {
-        padding-bottom: 200px;
+    section {
+        padding-bottom: 100px;
     }
 }
 
@@ -208,7 +218,6 @@ div.textbox {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-        height: 590px;
         text-align: center;
 }
 
@@ -236,7 +245,6 @@ div.textbox p {
     background-size: cover;
     -o-background-size: cover;
     font-family: blackboard;
-    padding-top: 100px;
 }
 
 .artist-section h1 {
