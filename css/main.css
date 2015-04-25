@@ -11,10 +11,10 @@ body {
     font-family:"crayon," Helvetica,Arial,sans-serif;
     color:#bbb;
     background:url("../img/blackboard_background2.jpg") no-repeat center center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-bottom:50px;
 }
 @media only screen and (max-width: 959px){
@@ -23,10 +23,10 @@ body {
     -o-background-attachment: scroll;
     -ms-backgroudn-attachment: scroll;
     background-attachment: scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .text-vertical-center {
@@ -159,7 +159,7 @@ body .navbar-custom {
     background: rgba(255,255,255,.1);
 }
 
-.container {
+.coverer {
     margin: auto;
 }
 /* Custom Horizontal Rule */
@@ -181,10 +181,10 @@ hr.small {
     padding: 100px 0;
     text-align: center;
     margin-top: 40px auto;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
         height: 690px;
 }
 
@@ -214,10 +214,10 @@ h1.artistic {
 div.textbox {
   padding: 20px;
   background: rgba(0 0 128 0.6);
-      -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
         text-align: center;
 }
 
@@ -240,10 +240,10 @@ div.textbox p {
     position: relative;
     width: 100%;
     height: 100%;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     font-family: blackboard;
 }
 
