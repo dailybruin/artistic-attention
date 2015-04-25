@@ -11,11 +11,12 @@ body {
     font-family:"crayon," Helvetica,Arial,sans-serif;
     color:#bbb;
     background:url("../img/blackboard_background2.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
+/*    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom:50px;
+*/    padding-bottom:50px;
+    background-size: 100%;
 }
 @media only screen and (max-width: 959px){
     -webkit-background-attachment: scroll;
