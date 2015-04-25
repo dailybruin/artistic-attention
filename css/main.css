@@ -11,12 +11,11 @@ body {
     font-family:"crayon," Helvetica,Arial,sans-serif;
     color:#bbb;
     background:url("../img/blackboard_background2.jpg") no-repeat center center fixed;
-/*    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-*/    padding-bottom:50px;
-    background-size: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    padding-bottom:50px;
 }
 @media only screen and (max-width: 959px){
     -webkit-background-attachment: scroll;
@@ -182,10 +181,10 @@ hr.small {
     padding: 100px 0;
     text-align: center;
     margin-top: 40px auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
         height: 690px;
 }
 
@@ -215,10 +214,10 @@ h1.artistic {
 div.textbox {
   padding: 20px;
   background: rgba(0 0 128 0.6);
-      -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+      -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
         text-align: center;
 }
 
@@ -241,10 +240,10 @@ div.textbox p {
     position: relative;
     width: 100%;
     height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
     font-family: blackboard;
 }
 
